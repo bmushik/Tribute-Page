@@ -1,0 +1,72 @@
+#image{
+  max-width:100%;
+  height:auto;
+  width:20vw;
+  margin:1vw auto;
+}
+
+img{
+  display:block;
+  border-radius: 10%;
+  border-style: double;
+}
+
+.background{
+  background-color:black;
+  background-image:url(https://cdn.pixabay.com/photo/2017/10/28/13/50/piano-2897109_960_720.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+*{
+  color:#F9F1F1;
+  text-align:center;
+  margin:0;
+  padding:0;
+}
+
+section{
+  font-family:Sono;
+  font-size:calc(7px + 1vw);
+  padding:1vw;
+  margin: 2vw 0;
+}
+
+main{
+  border: 22px;
+  max-width:100%;
+  width:70vw;
+  margin:auto;
+}
+
+h1{
+  font-size:calc(10px + 3vw);
+  margin:1vw auto;
+  background-color:black;
+  border-radius: 10px;
+  max-width: 40vw;
+  padding:0.8vw 0;
+
+}
+
+#img-caption{
+  font-family:Arial;
+  font-size:calc(5px + 1vw);
+  padding:0.7vw; 
+}
+
+section, #img-caption{
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.8);
+  border: solid 0.2vw black;
+  }
+
+h3{
+  font-size:2.5vw;
+}
+
+a:hover{
+  color:grey;
+}
